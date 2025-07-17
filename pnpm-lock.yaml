@@ -1,0 +1,53 @@
+lockfileVersion: '6.0'
+
+importers:
+  .:
+    specifiers:
+      react: ^17.0.2
+      react-dom: ^17.0.2
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2(react@17.0.2)
+    devDependencies:
+      typescript: 4.3.5
+
+packages:
+
+  /js-tokens/4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: false
+
+  /loose-envify/1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiagEW/qRsef4kNsqCr+o49Dy39bRi2XDIOeA2gV4Q==}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+
+  /react-dom/17.0.2(react@17.0.2):
+    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1JUSiC8iRUx2NceN2TE6_1nQdATal623Tf7NGRF21H5gkkdKCUxM8INoXQ0ZkWkHwGQw==}
+    peerDependencies:
+      react: 17.0.2
+    dependencies:
+      loose-envify: 1.4.0
+      scheduler: 0.20.2
+    dev: false
+
+  /react/17.0.2:
+    resolution: {integrity: sha512-gAUUGZzPzqmHaj5tcasbHeYp8ZXOMKASsIOoJ/zaUkeAcrxwGsv1MmMTOkgMAOY6F1GffJvA70tH1K0K1xZgA==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+
+  /scheduler/0.20.2:
+    resolution: {integrity: sha512-2eWfVolAJE5BvL2gxlGjJmu41XtNFKxIt4tBIeodA1/e8i2LHS5fgxvBav532ZlkT1T7R/0s8V2S2sSO/2Rx9A==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+
+  /typescript/4.3.5:
+    resolution: {integrity: sha512-DqQgihaQ9cOkysU7TJEgnMDUU6JGReL6MG1btAWGnSbejYpLgEJoOHrAmzC5QPA1NStDRbxgCZNJesdSFFfWoA==}
+    hasBin: true
+    dev: true
