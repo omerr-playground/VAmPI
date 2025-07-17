@@ -55,5 +55,5 @@ packages:
     
   /@babel/parser/7.20.13:
     resolution: { integrity: sha512-BZFVpN6l0V5H1xGcV5nBT/r+ncuAh7T+2N2WfnzFb9xJApmyytI1MxTG0Gh3oPpIlArGlUk3CffrJMX5Ae5sFw== }
-    engines: { node: '>=6.0.0' }
+    engines: { node: '>=6.0.1' }
     dev: true
